@@ -12,13 +12,14 @@ function About() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row style={{ justifyContent: "center", padding: "0px" }}>
           <Col
-            md={7}
+            sm={8}
             style={{
               justifyContent: "center",
-              paddingTop: "30px",
-              paddingBottom: "50px",
+              paddingTop: "0px",
+              paddingBottom: "0px",
+              marginTop:"-40px",
             }}
           >
            <h1 style={{ fontSize: "2.6em" }}>
@@ -26,12 +27,10 @@ function About() {
             </h1>
             Hi Everyone, I am <span className="purple">GHITA ATTOUF </span>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Javascript, Php, .NET </b>
-              </i>
+            after getting my<b className="purple"> Bac </b> in 2021, i went directly to <b className="purple">the specialized institute of applied technology </b> where i earnd my <b className="purple"> diploma </b> as a <b className="purple"> full stack developer </b> in 2023 during this period i had an end-of-year internship at DXC where i worked on a project to create a dedecated website for database management using laravel .
+            then i dedecate this year to improve my communication level in fr and eng at the same time i enrolled in a training at jobintech to develope my skills in the IT sector.
+              <br />then i dedecate this year to improve my communication level in fr and eng at the same time i enrolled in a training at jobintech to develope my skills in the IT sector.
+              
               <br />
               My field of Interest's are building new &nbsp;
               <i>
@@ -39,7 +38,7 @@ function About() {
                 
                
               </i>
-              <i>
+              <i> Using
                 <b className="purple">
                   {" "}
                   Modern Javascript Library and Framework
@@ -67,7 +66,7 @@ function About() {
           </Col>
           <Col
             md={5}
-            style={{  paddingBottom: "0px", width:"400px", marginTop:"-130px" }}
+            style={{  paddingBottom: "0px", width:"300px", marginTop:"-90px" }}
             className="about-img"
           >
             <Tilt>

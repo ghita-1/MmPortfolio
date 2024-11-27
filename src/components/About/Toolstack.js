@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
+  SiVisualstudio,
   SiFigma,
   SiMicrosoftpowerpoint,
   SiMicrosoftsqlserver,
@@ -27,6 +28,9 @@ function Toolstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiCanva />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftexcel />

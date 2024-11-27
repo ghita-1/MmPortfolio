@@ -13,7 +13,10 @@ DiDotnet
 } from "react-icons/di";
 import {
   SiMysql,
-  SiCsharp
+  SiCsharp,
+  SiTailwindcss,
+  SiPython,
+  SiDjango
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -49,6 +52,15 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPython />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDjango />
       </Col>
     </Row>
   );

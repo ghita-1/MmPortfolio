@@ -15,6 +15,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              
+              isBlog={false}
+              title="Sign language"
+              description="Create a cutting-edge sign language translation app using React for a smooth, interactive user experience and JSON to store and manage gesture data and translations."
+              // ghLink="https://github.com/ghita-1/Survey_App"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               
@@ -39,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio"
               description="Create a portfolio website using HTML, Css , JavaScript and ReactJs. It saves as a platform to present myself, share my projec, and provide information about my training and internship "
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
             />
           </Col>
 
