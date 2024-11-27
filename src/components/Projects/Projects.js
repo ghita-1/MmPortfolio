@@ -49,7 +49,7 @@ function Projects() {
               isBlog={false}
               title="Portfolio"
               description="Create a portfolio website using HTML, Css , JavaScript and ReactJs. It saves as a platform to present myself, share my projec, and provide information about my training and internship "
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              ghLink="https://github.com/ghita-1/MyPortfolio/tree/main"
             />
           </Col>
 
